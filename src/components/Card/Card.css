@@ -1,0 +1,67 @@
+.resultCard {
+  position: relative;
+  overflow: hidden;
+  margin: 0 10px;
+  margin-bottom: 30px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  text-align: left;
+  line-height: 1.6em;
+  border-radius: 5px;
+  box-shadow: 2px 4px 8px #6b728040;
+  transition: box-shadow 0.5s ease-in-out, 0.5s ease-in-out;
+}
+
+.resultCard:nth-child(3n + 1) {
+  background-color: rgba(200, 236, 200, 0.2);
+}
+
+.resultCard:nth-child(3n + 2) {
+  background-color: #fff6f4;
+}
+
+.resultCard:nth-child(3n + 3) {
+  background-color: #dcd9ef2d;
+}
+
+.resultCard:hover {
+  box-shadow: 3px 5px 8px #1c1e2040;
+  transform: translateY(-5px);
+}
+.ResultCardDetails {
+  padding: 10px;
+}
+
+.resultCardImage img {
+  height: 230px;
+  width: 315px;
+  max-width: 100%;
+  vertical-align: top;
+  opacity: 0.85;
+  object-fit: cover;
+}
+
+.ResultImageDetails {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 500;
+  height: 90px;
+  display: flex;
+  align-items: center;
+}
+
+.resultImageDate {
+  font-size: 12px;
+  font-weight: 600;
+  opacity: 0.7;
+  position: absolute;
+  right: 10px;
+  bottom: 0;
+}
+
+.resultCardPercentage {
+  font-family: "Rochester", cursive;
+  font-size: 35px;
+  margin-left: 10px;
+}

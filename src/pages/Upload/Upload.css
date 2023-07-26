@@ -1,0 +1,158 @@
+.upload-container {
+  min-height: calc(100vh - 60px);
+  width: 100%;
+  display: grid;
+  place-items: center;
+  padding: 25px 0;
+  background-color: #e8eff8;
+}
+.sub-container {
+  width: 45%;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.2em 0;
+  box-shadow: 2px 4px 8px rgba(113, 115, 121, 0.251);
+}
+.heading {
+  text-align: center;
+}
+
+.imageUploader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+}
+
+.check-button {
+  background-color: black;
+  margin-top: 50px;
+  align-self: center;
+  width: 150px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imageUploader .card {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 4em;
+  background-color: #d0e7e6c8;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.cardImage {
+  width: 25%;
+  height: 100%;
+  overflow: hidden;
+  padding: 0.45em;
+}
+
+.cardImage img {
+  border-radius: 3px;
+  height: auto;
+  object-fit: cover;
+}
+
+.imageUploader .card .cardImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.imageUploader .card .cardDetails {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.imageUploader .card .cardDetails .imageName {
+  font-weight: bold;
+}
+.imageUploader .card .cardDetails .imageSize {
+  font-size: 12px;
+}
+
+.imageUploader .card .cardStatus {
+  margin: auto;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.imageUploader .card .cardStatus:hover {
+  font-size: 22px;
+}
+
+.loader {
+  border: 2px solid #f3f3f3;
+  border-top: 2px solid #3498db;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.hideLoder {
+  display: none;
+}
+
+.imageUploader label {
+  margin-top: 20px;
+  padding-top: calc(300px / 2 - 40px);
+  padding-bottom: 0px;
+  height: 300px !important;
+  width: 100% !important;
+  box-sizing: border-box;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+.imageUploader label svg {
+  height: 70px;
+  width: 70px;
+}
+
+.imageUploader label svg path {
+  fill: var(--deep-sea-green) !important;
+}
+
+#naptha_container0932014_0707 {
+  display: none;
+}
+
+.upload-button-container {
+  padding-top: 20px;
+}
+.upload-button-container Button {
+  background-color: var(--deep-sea-green);
+  color: white;
+  transition: all 0.5s ease-in-out;
+  border-color: var(--deep-sea-green);
+}
+.upload-button-container Button:hover {
+  color: var(--deep-sea-green);
+  border-color: var(--deep-sea-green);
+}

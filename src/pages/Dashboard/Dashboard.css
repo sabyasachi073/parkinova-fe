@@ -1,0 +1,160 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Rochester&family=Spectral+SC:wght@200;300;400;500&display=swap'); */
+
+.dashboard-container {
+  overflow: hidden;
+  width: 100%;
+  /* color: #fcc112; */
+}
+
+.side-content {
+  position: fixed;
+  height: calc(100vh - 60px);
+  overflow: hidden;
+  float: left;
+  border-right: 2px solid #bbb9b9;
+  /* background-color: #fff6f4; */
+  /* background-color: #edfaff; */
+  /* background-color: #e2e8f0; */
+  background-color: #fdfff4;
+}
+
+.main-container {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  float: right;
+  padding: 10px;
+  width: calc(100vw - 239px);
+  background-color: #fdfff4;
+}
+
+.main-content {
+  width: 100%;
+  /* border: 1px solid red; */
+}
+
+.main-content hr {
+  margin-bottom: 30px;
+  opacity: 0.3;
+}
+
+.dashboard-header {
+  margin-left: 45px;
+  margin-bottom: 30px;
+  font-family: "Spectral SC", serif;
+  color: var(--deep-sea-green);
+}
+
+.dashboard-welcome > h3 {
+  font-size: 28px;
+  font-family: "Poppins";
+  font-weight: 500;
+  /* color: var(--ming); */
+  color: var(--breaker-bay);
+}
+
+.welcome-name {
+  margin-left: 25px;
+  font-size: 35px;
+  font-weight: 500;
+  font-family: "Spectral SC", serif;
+  letter-spacing: 0.1px;
+}
+
+.dashboard-result {
+  display: flex;
+  box-shadow: 2px 4px 8px #6b728040;
+  transition: box-shadow 0.5s ease-in-out, 0.5s ease-in-out;
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  background-color: #fff;
+}
+
+.dashboard-result:hover {
+  box-shadow: 3px 5px 8px #1c1e2040;
+  transform: translateY(-5px);
+}
+.overallResult {
+  width: 45%;
+}
+.big-pie {
+  width: fit-content;
+  margin: 0 auto;
+  /* border : 1px solid green; */
+}
+.big-pie > h1 {
+  font-family: "Rochester", cursive;
+}
+.numberoftest {
+  width: 55%;
+  margin: auto;
+  line-height: 2.5;
+}
+.numberoftest p {
+  width: fit-content;
+  /* text-align: center; */
+  margin: auto;
+  /* margin-top: 100px; */
+  /* font-size: 20px; */
+  /* font-weight: 600; */
+  display: flex;
+  align-items: center;
+  /* font-family: 'Spectral SC'; */
+  color: #81818b;
+
+  font-weight: 500;
+}
+
+.numberoftest > p {
+  font-size: 22px;
+}
+
+.test-number {
+  font-family: "Rochester", cursive;
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.resultCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.latestResultCards {
+  margin-bottom: 50px;
+}
+
+.dashboard-noimage {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.dashboard-noimage p {
+  font-size: 20px;
+}
+
+.dashboard-footer {
+  /* position: sticky;
+  bottom: 0; */
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+}
+
+.loading-message {
+  display: flex;
+  justify-content: center;
+}
+
+.other-images-loading-message {
+  margin-bottom: 30px;
+}
+
+.CircularProgress{
+  font-size: 20px;
+  
+}

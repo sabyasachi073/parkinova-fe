@@ -1,0 +1,45 @@
+.about-section {
+  margin-top: 30px;
+}
+
+.about-section h1 {
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 3rem;
+  font-weight: 400;
+  color: var(--deep-sea-green);
+  margin-bottom: 30px;
+}
+
+.about-section-content {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.about-section-content p {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: justify;
+  line-height: 1.4;
+}
+
+.about-tag {
+  width: fit-content;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.about-tag p {
+  color: var(--deep-sea-green);
+  font-weight: 700;
+}
+
+.about-section-content-deep {
+  color: var(--deep-sea-green);
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.about-footer {
+  margin-top: 50px;
+}
